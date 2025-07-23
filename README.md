@@ -52,7 +52,7 @@ This project builds a complete **RNA–peptide interaction analysis pipeline** f
 
 ---
 
-## 📦 Files & Folders
+## Files & Folders
 
 | File / Notebook                              | Description |
 |---------------------------------------------|-------------|
@@ -67,15 +67,19 @@ This project builds a complete **RNA–peptide interaction analysis pipeline** f
 
 ---
 
-## 📊 Output Visualizations
+## Output Visualizations
 
 - **Heatmaps** show dense-layer-based interaction strength
 - **Saliency Maps** explain which sequence positions influenced prediction
 - Supports **interactive HTML plots**
 
+Sample outputs
+<img width="6000" height="1800" alt="all_saliency_heatmaps" src="https://github.com/user-attachments/assets/be927b15-46d3-4036-b4f5-07c7ca89e21a" />
+
+
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 Run in [Google Colab](https://colab.research.google.com/) with:
 
@@ -92,7 +96,7 @@ drive.mount('/content/drive')
 
 ---
 
-## 🧠 Model Summary
+## Model Summary
 
 - **Inputs**:
   - RNA sequence (100 bases max) → 400-dim one-hot
@@ -104,14 +108,10 @@ drive.mount('/content/drive')
 
 ---
 
-## 📌 Future Work
+## Future Work
 
 - [ ] Replace dense with attention layers for interpretable alignment
 - [ ] Saliency overlay on sequence structure
 - [ ] Extend to 3D RNA–peptide binding site prediction
 
----
 
-## 📬 Citation / Acknowledgments
-
-This tool was developed for explainable prediction of RNA–peptide interactions using interpretable deep learning techniques (saliency and heatmaps) trained on curated sequence data.
