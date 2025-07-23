@@ -1,10 +1,10 @@
-# 🔬 RNA–Peptide Interaction Prediction with Saliency and Heatmaps
+# RNA–Peptide Interaction Prediction with Saliency and Heatmaps
 
 This project builds a complete **RNA–peptide interaction analysis pipeline** from raw positive binding pairs, through model training, to interpretable visualizations using **heatmaps** and **saliency maps**.
 
 ---
 
-## 📁 Project Workflow Overview
+## Project Workflow Overview
 
 ### 1. **Positive Data Loading**
 - **Notebook**: `RNA_peptide_positive_load_200chunks.ipynb`
